@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+  <meta name="package-mapping" content="com_vaadin_addon_charts:com.vaadin.addon.charts">
+ </head>
+ <body>
+  <vaadin-vertical-layout size-full>
+   <vaadin-horizontal-layout width="510px" height="68px">
+    <vaadin7-label style-name="bold colored h1" size-auto plain-text>
+      Welcome 
+    </vaadin7-label>
+    <vaadin-button icon="fonticon://Vaadin-Icons/e798" style-name="icon-align-right quiet" height="68px" :right>
+      Logout 
+    </vaadin-button>
+   </vaadin-horizontal-layout>
+   <vaadin-menu-bar style-name="valo-menu-badge" width="503px" _id="menubar">
+    <menu>
+      Profil 
+    </menu>
+    <menu>
+      Angajati 
+     <menu>
+       Adaugare angajati 
+     </menu>
+     <menu>
+       Adaugare functii 
+     </menu>
+    </menu>
+    <menu>
+      Echipe 
+     <menu>
+       Adaugare echipe 
+     </menu>
+    </menu>
+    <menu>
+      Planificare 
+    </menu>
+    <menu>
+      About 
+    </menu>
+   </vaadin-menu-bar>
+   <vaadin-inline-date-field></vaadin-inline-date-field>
+   <vaadin-date-time-field></vaadin-date-time-field>
+   <vaadin-date-field></vaadin-date-field>
+   <vaadin-progress-bar width="259px" height="25px"></vaadin-progress-bar>
+   <com_vaadin_addon_charts-chart></com_vaadin_addon_charts-chart>
+   <vaadin-tab-sheet size-auto>
+    <tab caption="Tab" selected>
+     <vaadin-date-time-field></vaadin-date-time-field>
+    </tab>
+   </vaadin-tab-sheet>
+  </vaadin-vertical-layout>
+ </body>
+</html>
